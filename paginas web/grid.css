@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+
+
+.footer{
+	background:  #333446;
+	display: block;
+font-family: 'Gemunu Libre', sans-serif;
+
+	
+
+}
+header{
+	display: flex;
+	background: lightblue;
+
+
+}
+
+ul li {
+	list-style: none;
+}
+ul{
+   display: inline-block;
+
+
+  }
+
+  .div1{
+  display: flex;
+  }
+  .div_label{
+  	display: flex;
+  	justify-content: flex-start;
+  	flex-wrap: wrap-reverse;
+  	min-width: 500px;
+  	text-decoration: none;
+  }
+.label1{
+	display: flex;
+	margin: 10px 10px 0 20px ;
+	text-decoration: none;
+	color: grey;
+	font-size: 20px;
+	
+}
+.label1:hover{
+	color: skyblue;
+
+
+}
+.label2{
+	display: flex;
+    margin: 10px 0px 5px 850px;
+    text-decoration: none;
+    color: #708A95;
+    font-size: 20px;
+}
+
+.div2{
+	
+	align-items: center;
+	  position: relative;
+	  right: 40px;
+	  margin: 0 10px;
+		display: flex;
+	justify-content: center;
+	min-width: 500px;
+	flex-wrap: wrap;
+	color: #708A95;
+  }
+
+  .parentesis{
+  	color: #708A95;
+  }
+  .titulos{
+  	color: #708A95;
+  }
+ .margin{
+ 	
+ 	margin: 0 20px;
+ }
+ a{
+ 	text-decoration: none;
+ 	color: #708A95;
+ }
+ a:hover{
+   color: skyblue;
+ }
+ .parrafo{
+ 	display: flex;
+ 	margin:  5px 20px;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ 	align-items: center;
+ 	font-size:15px;
+ 	color: white;
+ 	position: relative;
+ 	right: 50px;
+ 	font-family: 'Gemunu Libre', sans-serif;
+ }
+ i{
+ 	margin-right: 10px;
+ 	font-size: 30px;
+ }

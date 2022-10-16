@@ -1,0 +1,122 @@
+body{
+	background-image:imagen_de_correo.jpg;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover ;
+
+}
+
+
+.flex_container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center ;
+	background: #444E;
+	margin:100px 50px;
+	max-width: 1500px;
+	padding: auto;
+	min-width: 400px;
+
+
+}
+
+.form{
+	min-width: 350px;
+	order: 5;
+	flex: 1;
+	text-align: center;
+	padding: 30px;
+	max-width: 400px;
+    
+}
+
+.form_input{
+	width:100%;
+	padding: 7px;
+	margin: 7px 0;
+		color: white;
+	background-color: grey;
+	border: none;
+	border-bottom: solid rgb(0, 70, 120);
+
+
+}
+.form_input:hover{
+	border-bottom:solid skyblue;
+	cursor: pointer;
+	background: linear-gradient(to bottom, transparent, grey);
+
+
+}
+.form textarea{
+	min-height: 100px;
+	resize: none;
+}
+.form_img{
+	order: 2;
+	flex: 1;
+	padding: 10px;
+	display: flex;
+	margin: auto;
+	}
+.form_img img{
+	min-width: 100px;
+	width: 50%;
+	margin: auto;
+	display: flex;
+	align-items: flex-start;
+	padding: 20px;
+	background-color: rgb(0, 70, 120);
+    border-radius: 100%;
+	
+
+
+}
+.div_boton{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center ;
+
+}
+.boton{
+	width: 60%;
+	background: rgb(0, 70, 120);
+
+
+}
+.boton:hover{
+  background: linear-gradient(to bottom, skyblue, rgb(0, 70, 120));
+
+	background-color: skyblue;
+	cursor: pointer;
+
+}
+.div_imagen{
+	margin: 0;
+	display: flex;
+	
+	
+
+}
+.div_label{
+
+     display: flex;
+     margin: auto;
+     position: relative;
+     bottom: 20px;
+
+}
+
+label{
+	display: flex;
+	margin: auto;
+	font-size: 50px;
+	padding: auto;
+	color: skyblue;
+
+}
+.form_input::placeholder{
+	color: white;
+}

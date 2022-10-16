@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+
+.footer{
+	background:  #007553;
+	display: block;
+	font-family: 'Bungee Spice', cursive;
+font-family: 'Kanit', sans-serif;
+display: flex;
+flex-wrap: wrap;
+border-bottom: solid greenyellow;
+outline: solid greenyellow;
+padding: 0;
+width: 100%;
+font-family: 'Gemunu Libre', sans-serif;
+
+	
+
+}
+header{
+	display: flex;
+	background: lightblue;
+}
+ul{
+   display: inline-block;
+     }
+
+
+summary{
+	list-style: none;
+	margin: 5px;
+}
+.parrafo{
+	align-items: center;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	position: relative;
+	right: 30px;
+	font-family: 'Gemunu Libre', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+.listas{
+	margin: 75px 20px 20px 20px;
+	width: 20%;
+	color: white;
+	font-size: 20px;
+}
+.imagen{
+	width: 40%;
+	float: left;
+	display: flex;
+	margin: 30px;
+	margin-top: 40px;-
+	margin-right: 90px;
+	align-items: center;
+	justify-content: center;
+}
+img{
+	width: 150px;
+	height: 150px;
+	border-radius: 90%;
+	position: relative;
+	left: 20px;
+}
+.textos{
+	width: 30%;
+	float: left;
+	margin-right: 0;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.textos ul{
+	list-style: none;
+	margin: 70px 10px 20px 60px;
+
+}
+.textos li{
+	margin: 10px;
+}
+ .textos ul li a{
+	text-decoration: none;
+	color: white;
+	margin-top: 10px;
+}
+i{
+	color: white;
+	margin-right: 10px ;
+	font-size: 30px;
+
+}
+.titulos_listas:hover{
+	color: greenyellow;
+	cursor: pointer;
+
+}
+.textos ul i li:hover{
+	color: greenyellow;
+	cursor: pointer;
+
+}
+summary:hover{
+	color: greenyellow;
+	cursor: pointer;
+}
+.textos ul i li{
+	margin-top: 50px;
+	  }
+	  .parrafos:hover{
+	  	color: greenyellow;
+	  	cursor: pointer;
+
+	  }
+.textos ul li a:hover{
+	color: greenyellow;
+	cursor: pointer;
+
+}

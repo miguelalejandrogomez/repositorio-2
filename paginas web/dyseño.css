@@ -1,0 +1,104 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	background-image: url(https://static.vecteezy.com/system/resources/previews/004/466/263/non_2x/red-and-white-background-design-flat-and-minimalist-background-design-illustration-vector.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+  }
+
+  h1{
+  	padding: 10px 10px 10px 10px;
+  	margin: 10px;
+  	border:solid black ;
+  	display: inline-block;
+  	position: relative;
+  	bottom: 50px;
+}
+b{
+	margin: 30px;
+	display: inline-block;
+	position: relative;
+	bottom: 90px;
+	left: 590px;
+	
+}
+    b:hover{
+    	box-shadow: 2px 2px 2px 2px;
+
+    }
+
+h2{
+	display: inline-block;
+	align-items: center;
+	margin: 10px;
+	width: 10;
+	padding: 3px;
+	text-align: center;
+	position: relative;
+	bottom: 90px;
+	left: 450px;
+}
+
+h3{
+	display: inline-block;
+	margin: 50px 50px 10px 100px ;
+	border: solid red;
+	padding: 0;
+
+}  
+ 		h4{
+ 			font-family: 'Bungee Spice', cursive;
+ 			margin: 0px
+
+
+
+ 		}
+ 		h5{
+ 			color: black;
+ 			 display: inline-block;
+ 			 position: absolute;
+ 			background: gray;
+ 			border-radius: 30px;
+ 				opacity: .5;
+
+
+ 		}
+ 		
+ 		h5:hover{
+ 			box-shadow: 2px 2px 2px 2px;
+ 		}
+
+  .prueba1{
+  	right: 10px;
+  	height: 50px;
+  	width: 50px;
+  	display: inline-block;
+  	position: absolute;
+  	margin: 100px;
+  	font-family: 'Bungee Spice', cursive;
+  	background-color: aquamarine;
+  	border: solid black;
+  	overflow: auto;
+  }
+.prueba2{
+	left: 20px;
+	bottom: 30px;
+	height: 50px;
+	width: 50px;
+	overflow: scroll;
+	display: inline-block;
+	position: absolute;
+	margin:100px ;
+	font-family: sans-serif;
+	background-color: red;
+	color: blue;
+	border: solid yellow;
+}
+      	    
+      	    
+      	    
+
+
+    

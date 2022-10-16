@@ -1,0 +1,13 @@
+.grid_container{
+	display: grid;
+	grid-template-columns: 150px 150px 1fr;
+	grid-template-rows: 150px 150px 150px;
+	grid-gap: 20px;
+
+}
+.grid_items{
+	border: solid black;
+}
+.grid_items:first-child{
+	grid-column: 1 / 3;
+} 
